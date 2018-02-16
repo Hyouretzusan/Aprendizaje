@@ -1,0 +1,1 @@
+print("Temple of Shadows by Angra is my favorite Power Metal album ever!")
