@@ -1,0 +1,4 @@
+Esta es una prueba de texto plano.
+Otro archivo ingresado por el usuario.
+Se supone que TODO ESTO está en MINÚSCULAS.
+Al menos, esa es la SALIDA ESPERADA.
