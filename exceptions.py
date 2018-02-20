@@ -29,12 +29,12 @@ class OopsException(Exception):
     """docstring for Oops_Exception"""
     pass
 
-words = ["5", "Darling", "4"]
+words = [5, "Darling", "4"]
 while True:
     for word in words:
-        try:
-            float(word)
-            print("Float:",word)
-        except OopsException:
-            print("Caught an 'oops!'")
-            continue
+        checking = type(word)
+        if checking == 'int' or checking == 'float':
+            print("Original", word)
+        """else:
+            raise OopsException
+            continue"""
