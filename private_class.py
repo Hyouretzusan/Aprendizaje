@@ -7,7 +7,7 @@ class Element():
 
     def get_(self):
         print("Inside the getter")
-        return(self.__name, self.__symbol, self.__number)
+        return(self.__name)#, self.__symbol, self.__number)
 
     def set_(self, name, symbol, number):
         print("Inside the setter")
