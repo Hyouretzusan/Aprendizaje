@@ -5,9 +5,12 @@ class Element():
         self.symbol = symbol
         self.number = number
 
-elementDict = {"name" : "Hydrogen", "symbol" : "H", "number" : "1"}
-elementDictList = list(elementDict.values())
-print(elementDictList[0])
+    def dump(self):
+        print(self.name, self.symbol, self.number)
 
-myElement = Element(elementDictList[0], elementDictList[1], elementDictList[2])
-print(myElement)
+elementDict = {"name": "Hydrogen", "symbol": "H", "number": "1"}
+elementDictList = list(elementDict.values())
+#print(elementDictList[0])
+
+hydrogen = Element(elementDictList[0], elementDictList[1], elementDictList[2])
+hydrogen.dump()
