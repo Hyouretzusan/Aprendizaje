@@ -1,9 +1,9 @@
 from collections import namedtuple
 
-"""Perro = namedtuple('Perro', 'Color')
-mascota = Perro('Kid', 'Blanco')
-print(mascota)"""
+Perro = namedtuple('Perro', 'Nombre Color')
+perro = Perro('Kid', 'Blanco', )
+#print(perro)
 
-Perro = namedtuple('Perro', 'Longitud cola')
-perro = Perro('Kid', 'Corta')
-print(perro)
+partes = {"Nombre" : "Kid", "Color" : "Beige"}
+perro2 = Perro(**partes)
+print(perro2)
