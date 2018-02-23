@@ -5,6 +5,10 @@ class Element():
         self.__symbol = symbol
         self.__number = number
 
+    """def get_(self):
+        print("Inside the getter")
+        return(self.__name, self.__symbol, self.__number)"""
+
     def get_name(self):
         print("Inside the name getter")
         return(self.__name)
