@@ -14,3 +14,21 @@ elementDictList = list(elementDict.values())
 
 hydrogen = Element(elementDictList[0], elementDictList[1], elementDictList[2])
 hydrogen.dump()
+#print(hydrogen)
+
+#elementList = []
+elementName = input("Ingrese el nombre del elemento: ")
+#elementList.append(elementName)
+elementSymbol = input("Ingrese el símbolo del elemento: ")
+#elementList.append(elementSymbol)
+elementNumber = input("Ingrese el número del elemento: ")
+#elementList.append(elementNumber)
+#print(elementList)
+
+newelement = Element(elementName, elementSymbol, elementNumber)
+newelement.dump()
+
+#elementDict["name"] = elementList[0]
+#elementDict["symbol"] = elementList[1]
+#elementDict["number"] = elementList[2]
+#print(elementDict)
