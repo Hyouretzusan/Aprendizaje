@@ -7,5 +7,10 @@ def palindromo(word):
             return False
     return True
 
-palabra = palindromo("arepera")
-print(palabra)
+palabraUsu = input("Por favor, ingrese la palabra que desea evaluar")
+palabra = palindromo(palabraUsu)
+
+if palabra is True:
+    print(palabraUsu, "sí es un palíndromo")
+else:
+    print("Esto no es un palindromo")
