@@ -15,4 +15,6 @@ with open ("books.csv", "rt") as entrada:
         conn.commit()
         print("Book registered: %s" % book["title"])
 
+conn.close()
+
 bdd_consultbooks()
